@@ -1,0 +1,232 @@
+body{
+    background-color:#FBD8DA;
+}
+.Logo{
+    width:100px;
+}
+.Mom{
+    margin-top:5px;
+    background-color: #FFEFEC;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Tint{
+    margin: 4px;
+    color:333333;
+    font-size:150px;
+    text-align:center;
+    font-family: Brush Script MT;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+.Tint:hover{
+    transform: translateY(-10px);
+    font-size: 160px;
+    color: #fff;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #d1435b,
+        0 0 30px #d1435b,
+        0 0 40px #d1435b,
+        0 0 50px #d1435b,
+        0 0 75px #d1435b;
+}
+
+
+.Sink {
+width:328px;
+Display:inline; 
+text-align: left;
+}
+.Text{
+    display:flex;
+    font-family:'Courier New',Harrington; /*the type of the font*/
+    font-size:44px;
+    color:#2b2828;
+    justify-content: center;
+    
+}
+.description{
+    
+width: 456px;
+
+border: 18px ridge #E8C1BB;
+border-radius: 30px;
+margin: 5px ;
+
+}
+.Duck {
+    width: 456px;
+    
+    border-radius:28px;
+    margin-top:18px;
+    margin-right:0px;
+}
+.Heart{
+  margin: 18px;
+    color: red;
+}
+.Dad{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    
+}
+.second{
+
+    border-radius: 30px;
+    width: 680px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.Bracket{
+    border: none;
+    border-radius: 30px;
+    width: 672px ;
+    background-color:white;
+    margin-right: 40px;
+    border-bottom: 8px solid rgb(221, 210, 228) ;
+    transition-property:all;
+    transition-duration:0.3s;
+    transition-timing-function: ease;
+}
+    .Bracket:hover{
+        transform: translateY(-18px);
+        box-shadow: 
+         0 0 5px #ddd2e4,
+        0 0 10px #ddd2e4,
+        0 0 15px #ddd2e4,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #fff;
+    
+}
+.bla{
+    font-size: 55px;
+    padding-left: 45px;
+}
+.line{
+    color:rgb(221, 210, 228) ;
+    padding-left: 45px;
+}
+.At{
+width:600px;
+font-size: 30px;
+padding-left: 45px;
+padding-right: 45px;
+}
+.next{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(221, 210, 228);  
+    width: 600px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 40px;
+    border-bottom: 8px solid white;
+    transition-property:all;
+    transition-duration:0.3s;
+    transition-timing-function: ease;
+    
+}
+.next:hover{
+transform: translateY(-18px);
+box-shadow:
+ 0 0 5px #fff,
+ 0 0 10px #fff,
+ 0 0 15px #fff,
+ 0 0 20px #ddd2e4,
+ 0 0 30px #ddd2e4,
+ 0 0 40px #ddd2e4;
+}
+.Transform{
+    font-size: 50px;
+}
+.sline{
+    color: white;
+}
+.Cute{
+    width: 600px;
+    font-size: 28px;
+    font-family: Palatino Linotype;
+}
+.Big{
+    background-color: #FFEFEC ;
+    border-radius: 30px;
+    display: block;
+}
+
+.Sister{
+display: flex;
+margin-top: 220px; 
+width: 300px;
+height: 300px;
+justify-content: space-between;
+
+}
+.He{
+    border-radius: 100%;
+    margin-right: 330px;
+    margin-left: 270px;
+    animation: appear 8s forwards;
+}
+.Loves{
+    border-radius: 250px;
+    margin-right: 330px;
+    animation: appear 14s forwards;
+}
+.U{
+    border-radius: 100%;
+    animation: appear 16s forwards;
+    
+}
+@keyframes appear{
+    from{ opacity: 0;}
+    to{opacity: 1;}
+    }
+
+.Underimages{
+    display: flex;
+   
+}
+.st{
+    margin-right: 225px;
+    margin-left: 225px;
+    animation: appear 8s forwards;
+    border: 5px solid #ddd2e4;
+    background-color: white;
+    border-radius: 40px;
+    width: 300px;
+    padding-left:12px;
+    display: block;
+  
+
+}
+.nd{
+    margin-right: 215px;
+    animation: appear 14s forwards; 
+    border: 5px solid #ddd2e4;
+    background-color: white;
+    border-radius: 40px;
+    width: 300px;
+    padding-left:12px;
+    display: block;
+}
+.rd{
+    animation: appear 16s forwards;
+    border: 5px solid #ddd2e4;
+    background-color: white;
+    border-radius: 40px;
+    width: 300px;
+    padding-left:12px;
+    display: block;
+   
+}
